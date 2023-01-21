@@ -1,116 +1,96 @@
 * {
-    margin: 0px;
-    border: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #F5F5F5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 50px;
-    /* background-image: url(./Img/IjaTitanic.jpg);
+  background-color: #f5f5f5;
+  padding: 50px;
+  /* background-image: url(./Img/IjaTitanic.jpg);
     background-size: cover; */
 }
 
+.box-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+
 #page-title {
-    text-align: center;
+  text-align: center;
 }
 
 #input-number {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 #output {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    padding: 10px;
-    margin: 10px;
-    width: 650px;
-    height: 250px;
-    border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  height: 250px;
+  /* width: 650px;
+  height: 250px; */
+  border-radius: 5px;
 }
 
-#btn-calculate {
-    background-color: mediumseagreen;
-    font-family: cursive;
-    font-size: 12px;
-    border: none;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 16px;
-    width: 150px;
-    align-self: center;
+.btn {
+  background: #aab7b8;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: #212f3c;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  /* width: 150px; */
+  align-self: center;
 }
 
-#btn-clear {
-    background-color: tomato;
-    font-family: cursive;
-    font-size: 12px;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 16px;
-    width: 150px;
+.btn:hover {
+  background: #839192;
 }
 
-.main-box {
-    width: 700px;
-    height: 500px;
-    margin-top: 30px;
-    border-color: #066066;
-    border-width: 2px;
-    border-style: solid;
-    padding-left: 10px;
-    border-radius: 30px 0px 30px 0px;
-    /* Center the DIV */
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    /* display: none; */
+.btn:active {
+  background: #5f6a6a;
 }
 
 .box-title {
-    margin-top: 10px;
-    font-size: 12px;
-    font-family: cursive;
-    margin-bottom: 20px;
-    color: #066066;
-    text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: cursive;
+  margin-bottom: 20px;
+  color: #066066;
+  text-align: center;
 }
 
 .form-label {
-    /* border-style: solid;
-    border-width: 1px;
-    border-color: black; */
-    padding: 10px;
-    margin: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
 }
 
 .btn-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
 }
-
 
 /* @media only screen and (min-width:300px) {
     .main-box {
